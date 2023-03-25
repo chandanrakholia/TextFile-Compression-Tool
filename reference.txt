@@ -1,0 +1,6 @@
+https://cplusplus.com/reference/fstream/ifstream/open/
+https://www.tutorialspoint.com/cplusplus/cpp_files_streams.htm#:~:text=Opening%20a%20File&text=Either%20ofstream%20or%20fstream%20object,%2C%20ifstream%2C%20and%20ofstream%20objects.
+https://www.rapidtables.com/code/text/ascii-table.html
+https://medium.com/@zekumorudoragonhatto/how-to-work-with-binary-files-in-c-520a852ee04a
+https://stackoverflow.com/questions/759707/efficient-way-of-storing-huffman-tree
+https://text-compare.com/
