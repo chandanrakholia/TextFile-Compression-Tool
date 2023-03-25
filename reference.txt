@@ -4,3 +4,4 @@ https://www.rapidtables.com/code/text/ascii-table.html
 https://medium.com/@zekumorudoragonhatto/how-to-work-with-binary-files-in-c-520a852ee04a
 https://stackoverflow.com/questions/759707/efficient-way-of-storing-huffman-tree
 https://text-compare.com/
+for test cases -->https://www.gutenberg.org/browse/scores/top
