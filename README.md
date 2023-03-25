@@ -32,13 +32,13 @@ for Encoding:
   g++ encode.cpp -o en
   ./en <fileName.txt> <password>
 ```
-<password> is of 4 characters, which is optional.
+password is of 4 characters, which is optional.
 
 for Decoding:
 ```bash
   g++ decode.cpp -o de
   ./de <fileName.dat> <password>
 ```
-<password> is same as you had earlier used for Encoding, It is optional if you had not use password.
+password is same as you had earlier used for Encoding, It is optional if you had not use password.
 
 
