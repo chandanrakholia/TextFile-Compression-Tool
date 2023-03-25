@@ -32,7 +32,7 @@ for Encoding:
   g++ encode.cpp -o en
   ./en <fileName.txt> <password>
 ```
-password is of 4 characters, which is optional.
+password should be of 4 characters, which is optional.
 
 for Decoding:
 ```bash
