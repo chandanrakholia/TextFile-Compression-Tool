@@ -5,6 +5,7 @@
 #include <vector>
 #include <ctime>
 using namespace std;
+string outputFileName;
 class pBar
 {
 public:
@@ -99,6 +100,7 @@ void solve(string finName, string pass)
         bar.print();
     }
     string foutName = finName.substr(0, finName.length() - 4) + "_uncompressed.txt";
+    outputFileName=foutName;
     ifstream fin;
     fin.open(finName, ios::in | ios::binary);
     string password = "";
@@ -111,6 +113,7 @@ void solve(string finName, string pass)
     password.push_back(char(int(pc)));
     fin.read(reinterpret_cast<char *>(&pc), 1);
     password.push_back(char(int(pc)));
+    // cout<<pass<<password<<endl;
     if (pass != password)
     {
         cout << password << endl;
@@ -247,7 +250,7 @@ int main(int argc, char *argv[])
             pass = argv[2];
             solve(fileName, pass);
             cout << endl;
-            cout << "Decompression done! output file name is: " << fileName.substr(0, fileName.length() - 4) << ".txt" << endl;
+            cout << "Decompression done! output file name is: " << outputFileName << endl;
             exit(0);
         }
         else if (argc == 2)
@@ -255,7 +258,7 @@ int main(int argc, char *argv[])
             pass = "    ";
             solve(fileName, pass);
             cout << endl;
-            cout << "Decompression done! output file Name:" << fileName.substr(0, fileName.length() - 4) << ".txt" << endl;
+            cout << "Decompression done! output file Name:" << outputFileName << endl;
             exit(0);
         }
     }
